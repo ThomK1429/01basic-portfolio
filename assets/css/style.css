@@ -1,0 +1,107 @@
+		body { 
+
+ 			
+ 			background-image: url("../images/cheap_diagonal_fabric.png"); 
+ 			border: 1px solid green;
+ 		}
+
+		header {
+
+		}
+
+		.hdr_name {
+			padding: 2% 0% 2% 0%;
+			background-color: #4aaaa5;
+			width: 20%;
+			text-align: center;
+			color: white;
+			float:left;
+
+			margin-left: 10%;
+		}	
+
+		.hdr_nav {
+			padding: 2% 0% 2% 69%;
+			background-color: white;
+			width: 100%;
+		}
+
+		a:link {
+    text-decoration: none;
+		}
+
+		.sec_middle {
+			clear: both;
+
+			/* These 3 must be here for bg color  
+			however, they are not used at this time
+			since body background-color is being used. 
+			background-color: #ddd; 
+
+			width: auto;	height: auto;		overflow:auto; */
+		}
+
+		.sec_content {
+			width: 50%;
+			float: left;
+			background-color: white;
+			color: #4aaaa5;
+			margin-left: 10%;
+			margin-right: 5%;
+			margin-top: 5%;
+			padding: 2%  2% 2% 2%;
+
+			text-align: justify;
+      text-justify: inter-word;
+
+		}
+
+		h2 {
+			padding-bottom: 2%;
+		}
+
+		img {
+			padding: 2% 0 2% 0;
+		}
+
+		a img {
+			padding: 0 4% 0 0 ;
+		}
+
+		.sec_connect {
+
+			width: 20%;
+			float: left;
+			text-align: center;
+			background-color: white;
+			color: #4aaaa5;
+			margin-top: 5%;
+
+			padding: 2%  2% 2% 2%;
+		}
+
+		.sec_connect h3 {
+			padding: 0%  0% 6% 0%;
+
+		}
+
+		.conimage {
+			width: 40px;
+		  height: 40px;
+		}
+
+
+		footer {
+			clear: both;										/*clear prior floats */
+			border-top: 6px solid #4aaaa5;  /*tealish border top */
+			background-color: #666;					/*dark gray          */
+			color: white;										/*text color         */
+			text-align: center;
+			padding: 2% 0 2% 0;							/*pad only top&bot   */
+
+			position: absolute;
+    	left: 0;
+   		bottom: 0;
+			width: 100%;
+			border: 2px solid red;
+		} 
